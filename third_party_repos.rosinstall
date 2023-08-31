@@ -1,0 +1,28 @@
+- git:
+    local-name: platforms/baxter
+    uri: git@github.com:pidipidi/baxter.git
+    version: master
+- git:
+    local-name: platforms/baxter_interface
+    uri: git@github.com:pidipidi/baxter_interface.git
+    version: noetic-devel
+- git:
+    local-name: platforms/baxter_tools
+    uri: git@github.com:pidipidi/baxter_tools.git
+    version: noetic-devel
+- git:
+    local-name: platforms/baxter_common
+    uri: git@github.com:pidipidi/baxter_common.git
+    version: noetic-devel
+- git:
+    local-name: platforms/baxter_examples
+    uri: git@github.com:pidipidi/baxter_examples.git
+    version: noetic-devel
+- git:
+    local-name: platforms/baxter_simulator
+    uri: git@github.com:pidipidi/baxter_simulator.git
+    version: noetic-devel
+- git:
+    local-name: utils/riro-kdl
+    uri: git@github.com:rirolab/riro-kdl.git
+    version: noetic-devel
