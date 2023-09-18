@@ -11,12 +11,26 @@ class OriginalFormulation(object):
         self.D = D
             
     def acceleration(self, x, dx, start, goal, tau, f, s):
+        """
+        Compute the acceleration value of the transformation system
+        at the phase s.
+
+        Return: 
+            ddx float: the value of the acceleration variable at the 
+                       phase s
+        """        
         #------------------------------------------------------------
         # Place your code here
         return 
         #------------------------------------------------------------
   
     def fs(self, x, dx, ddx, start, goal, tau, s):
+        """
+        Compute the nonlinear term f of the transformation system.
+
+        Return: 
+            f float: the value of the nonlinear term at the phase s
+        """
         #------------------------------------------------------------
         # Place your code here
         return 
@@ -31,12 +45,26 @@ class ImprovedFormulation(object):
         self.D = D
     
     def acceleration(self, x, dx, start, goal, tau, f, s):
+        """
+        Compute the acceleration value of the transformation system
+        at the phase s.
+
+        Return: 
+            ddx float: the value of the acceleration variable at the 
+                       phase s
+        """                
         #------------------------------------------------------------
         # Place your code here
         return 
         #------------------------------------------------------------
     
     def fs(self, x, dx, ddx, start, goal, tau, s):        
+        """
+        Compute the nonlinear term f of the transformation system.
+
+        Return: 
+            f float: the value of the nonlinear term at the phase s
+        """
         #------------------------------------------------------------
         # Place your code here
         return 
