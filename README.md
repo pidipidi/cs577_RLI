@@ -65,7 +65,7 @@ Make sure that if ROS_MASTER_URI and ROS_ROOT, ETC are properly setup.
 
 # Assignment Links 
 - [Assignment I](assignment_1/README.md)
-- [Assignment II]()
+- [Assignment II](assignment_2/README.md)
 - [Assignment III]()
 
 # ETC
